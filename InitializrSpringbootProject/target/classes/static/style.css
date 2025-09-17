@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 Sept 2025, 08:23:30
+    Author     : DYICT
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  margin-top: 10%;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background: #4facfe;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #00c6ff;
+}
+
+.output {
+  font-weight: bold;
+  color: #0077cc;
+  margin-top: 15px;
+}
